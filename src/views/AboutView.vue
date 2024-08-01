@@ -5,7 +5,7 @@ import Contact from '../components/Contact.vue'
 
 <template>
   <main id="about">
-    <img class="profile-image" src="../assets/images/profile-image.jpg" />
+    <img class="profile-image" src="/images/profile-image.jpg" />
     <h1>Archawit Changtor</h1>
     <p>
       Hi there! I'm a fourth year student living in Pathumthani, Thailand, currently studying
