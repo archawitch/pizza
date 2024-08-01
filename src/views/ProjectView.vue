@@ -1,7 +1,7 @@
 <script setup>
 import data from '../assets/project-details/project-details.json'
 import { useRoute, RouterLink } from 'vue-router'
-import { ref, onMounted } from 'vue'
+import { ref, watch, onMounted, watchEffect } from 'vue'
 
 const route = useRoute()
 
@@ -19,6 +19,11 @@ const getDetails = (projectName) => {
   }
 }
 
+watch(projectData, (newData) => {
+  if (newData) {
+  }
+})
+
 onMounted(() => {
   const projectName = route.params.name
   if (projectName) {
@@ -34,7 +39,7 @@ onMounted(() => {
       <router-link class="link" to="/projects">back</router-link>
     </div>
     <div class="project-cover">
-      <img v-for="cover in projectData.covers" :src="cover" />
+      <img v-for="cover in projectData.covers" :key="cover" :src="`/images/projects/${cover}`" />
     </div>
     <section name="project-description">
       <p v-html="projectData.description"></p>
