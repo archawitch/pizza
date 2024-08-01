@@ -1,0 +1,41 @@
+:root {
+  --color-background: #1d1b20;
+
+  --color-text: #fafafa;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100dvh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.2s,
+    background-color 0.2s;
+  line-height: 1.75;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  width: 0;
+  display: hidden;
+}

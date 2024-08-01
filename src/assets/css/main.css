@@ -1,0 +1,63 @@
+@import './base.css';
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-weight: normal;
+}
+
+section {
+  margin-top: 2.2rem;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.35rem;
+}
+
+a {
+  color: white;
+  transition:
+    0.2s opacity,
+    0.2s color,
+    0.2s font-weight;
+  text-decoration: none;
+}
+
+a.active-nav {
+  border-bottom: 5px solid #444147;
+  line-height: 120%;
+  font-weight: 700 !important;
+}
+
+a.link {
+  border-bottom: 0.24rem solid #363943;
+  line-height: 100%;
+  font-weight: 500;
+}
+
+a:not(.active-nav):hover {
+  opacity: 0.85;
+}
+
+.text-secondary {
+  color: #cac4d0;
+}
+
+@media only screen and (min-width: 640px) {
+  #app {
+    max-width: 768px;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+}

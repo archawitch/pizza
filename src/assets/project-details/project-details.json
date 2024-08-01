@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "route": "tasky",
+      "name": "Tasky",
+      "covers": ["/src/assets/images/projects/tasky-1.png"],
+      "description": "<span style='font-weight: 500;'>Tasky</span> brings the traditional desk board into your computer. This allows you to take notes, list todo-tasks, and stay focused.<br/><br/>I started this project since I couldn't find any online websites, where I could write down my ideas, that fit my needs. After this, I learned React fundamental concepts such as state management, React components, and much more. <br/><br/>You can explore its codebase on <a class='link' href='https://github.com/archawitch/Tasky' target='_blank'>GitHub</a> or check out the demo at <a class='link' href='https://taskyboard.online' target='_blank'>taskyboard.online</a>"
+    },
+    {
+      "route": "picterest",
+      "name": "Picterest",
+      "covers": ["/src/assets/images/projects/picterest-1.png"],
+      "description": "<span style='font-weight: 500;'>Picterest</span> is a web-based Pinterest clone that allows you to discover, created, and save images.<br/><br/>This project was a part of CSS326 Database Programming Laboratory course. I developed along with my peer as a full-stack developer. I learned so many fundamental topics here. This includes Frontend Development (VueJS, Tailwind CSS), Backend Development (PHP), Database Development (MySQL), REST API, and much more.<br/><br/>It is not implemented online but you can explore its codebase on <a class='link' href='https://github.com/archawitch/Picterest' target='_blank'>GitHub</a>."
+    },
+    {
+      "route": "catch-the-fruits",
+      "name": "Catch the fruits",
+      "covers": [
+        "/src/assets/images/projects/catch-the-fruits-1.png",
+        "/src/assets/images/projects/catch-the-fruits-2.png"
+      ],
+      "description": "<span style='font-weight: 500;'>Catch the fruits</span> is a mini Java game where players need to catch falling fruits. This game applies Java AWT and Object-Oriented Programming (OOP) concepts.<br/><br/>It was a part of ITS103 Object-Oriented Programming Laboratory course. During this course, I learned and implemented OOP concepts such as <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Abstraction' target='_blank'>abstraction</a>, <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Encapsulation' target='_blank'>encapsulation</a>, <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Inheritance' target='_blank'>inheritance</a> and <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Polymorphism' target='_blank'>polymorphism</a> in Java.<br/><br/>It is not implemented online but you can explore its codebase on <a class='link' href='https://github.com/archawitch/catch-the-fruit' target='_blank'>GitHub</a>."
+    }
+  ]
+}
