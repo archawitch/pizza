@@ -1,7 +1,7 @@
 <script setup>
 import data from '../assets/project-details/project-details.json'
 import { useRoute, RouterLink } from 'vue-router'
-import { ref, watch, onMounted, watchEffect } from 'vue'
+import { ref, watch, onMounted } from 'vue'
 
 const route = useRoute()
 
@@ -34,7 +34,7 @@ onMounted(() => {
 
 <template>
   <main class="project">
-    <div class="project-name" name="project-name">
+    <div class="project-title" name="project-name">
       <h1>{{ projectData.name }}</h1>
       <router-link class="link" to="/projects">back</router-link>
     </div>
@@ -52,12 +52,16 @@ onMounted(() => {
   margin-bottom: 3rem;
 }
 
-.project-name {
+.project-title {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 0.5rem;
+}
+
+.project-title:has(:nth-child(3)) {
+  justify-content: unset;
 }
 
 .project-name-paragraph {

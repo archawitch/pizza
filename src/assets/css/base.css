@@ -1,7 +1,7 @@
 :root {
   --color-background: #1d1b20;
-
   --color-text: #fafafa;
+  --color-border: #fafafa;
 }
 
 *,
@@ -9,7 +9,7 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  font-weight: normal;
+  color: var(--color-text);
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     background-color 0.2s;
   line-height: 1.75;
   font-family: 'Rubik', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,4 +38,10 @@ html {
 ::-webkit-scrollbar {
   width: 0;
   display: hidden;
+}
+
+@media only screen and (min-width: 640px) {
+  body {
+    font-size: 16px;
+  }
 }

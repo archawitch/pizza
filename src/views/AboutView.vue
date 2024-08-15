@@ -5,8 +5,7 @@ import Contact from '../components/Contact.vue'
 
 <template>
   <main id="about">
-    <img class="profile-image" src="/images/profile-image.jpg" />
-    <h1>Archawit Changtor</h1>
+    <h1 class="name">I'm Archawit Changtor</h1>
     <p>
       Hi there! I'm a fourth year student living in Pathumthani, Thailand, currently studying
       Computer Engineering at
@@ -46,27 +45,28 @@ import Contact from '../components/Contact.vue'
 <style scoped>
 #about {
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
-  margin-bottom: 3rem;
 }
 
-#about p {
-  margin-top: 1.5rem;
+#about h1 {
+  margin-bottom: 1.1rem;
 }
 
 .profile-image {
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
   border-radius: 9999px;
-  border: 3px solid white;
-  margin-bottom: 1.7rem;
+  border: 3px solid var(--color-border);
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
 }
 
 @media only screen and (min-width: 600px) {
   .profile-image {
-    width: 12rem;
-    height: 12rem;
+    display: block;
+    width: 9rem;
+    height: 9rem;
   }
 }
 </style>

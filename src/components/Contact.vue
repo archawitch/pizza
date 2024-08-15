@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-  <footer class="contact">
+  <footer id="contact" class="contact">
     <a class="contact-info link" href="https://github.com/archawitch" target="_blank">GitHub</a>
     <a class="contact-info link" href="https://linkedin.com/in/archawitch/" target="_blank"
       >LinkedIn</a
@@ -14,8 +14,7 @@
 
 <style scoped>
 .contact {
-  margin-top: 2.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   padding-top: 2.5rem;
   border-top: 0.06rem solid #444147;
   display: flex;
@@ -23,16 +22,7 @@
   width: 100%;
 }
 
-.contact-info {
-  margin-right: 1.5rem;
-}
-
-.contact a img {
-  height: 2rem;
-  min-width: 2rem;
-}
-
-.contact a:not(:last-child) img {
+.contact-info:not(:last-child) {
   margin-right: 1.5rem;
 }
 
