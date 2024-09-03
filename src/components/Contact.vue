@@ -26,7 +26,7 @@
   margin-right: 1.5rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .contact {
     flex-direction: column;
     row-gap: 1.5rem;

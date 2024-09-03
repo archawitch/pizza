@@ -1,25 +1,32 @@
 {
   "projects": [
     {
+      "route": "iwin",
+      "name": "iWin",
+      "cover-type": "video",
+      "covers": ["https://www.youtube.com/embed/qQRj3tBF4ZE"],
+      "description": "<b>iWin</b> is a simple solution that we can use to transfer files, links, or text from iOS devices to Windows PCs. It uses the <a class='link' href='https://datatracker.ietf.org/doc/html/rfc6762' target='_blank'>mDNS protocol</a> for broadcasting service and a <a class='link' href='https://aws.amazon.com/what-is/restful-api/' target='_blank'>RESTful API</a> for receiving files.<br/><br/>If you want to give it a try, let's do that by following the instructions in this <a class='link' href='https://github.com/archawitch/iwin' target='_blank'>documentation</a>.<br/><br/>Created with <i>Go</i> and <i>Swift</i>."
+    },
+    {
       "route": "tasky",
       "name": "Tasky",
-      "stack": ["react.svg"],
+      "cover-type": "image",
       "covers": ["tasky-1.png"],
-      "description": "<b>Tasky</b> brings the traditional desk board into your computer. This allows you to take notes, list todo-tasks, and stay focused.<br/><br/>I started this project because I had no ideas where I should put my notes. I also tried to find some online spaces out there, but it turned out that none fit my needs. The main idea of this project is to create a simple website where <b>everyone can take some notes and forget them, and then they can come back and remember</b>. However, having only this concept seemed superficial to me, so I added a few more features like <b>a timer and a to-do list</b>.<br/><br/>During the development stage, I found that the timer part was very tricky to deal with. When I tried to write code that contained only an interval that updated a counter state every second, it wasn't counting when my laptop slept. This occured because the browser also stopped running, and caused the interval to stop. However, I solved this problem by using the timestamp when the user clicks on the start button. This counts the time passed by subtracting current timestamp from the start timestamp, so we don't need to worry about the state and its accuracy. I don't know if this is a good idea or not, but it works 😎.<br/><br/>For the demo, you can check it out at <a class='link' href='https://taskyboard.online' target='_blank'>taskyboard.online</a>, or if you want to see the code, you can find it on <a class='link' href='https://github.com/archawitch/Tasky' target='_blank'>GitHub</a>.<br/><br/>Created with <i>React</i>."
+      "description": "<b>Tasky</b> brings the traditional desk board into your computer. This allow you to take notes, list todo-tasks, and stay focused whenever you want, quickly and easily.<br/><br/>For the demo, you can check it out at <a class='link' href='https://taskyboard.online' target='_blank'>taskyboard.online</a>, or if you want to see the code, you can find it on <a class='link' href='https://github.com/archawitch/Tasky' target='_blank'>GitHub</a>.<br/><br/>Created with <i>React</i>."
     },
     {
       "route": "picterest",
       "name": "Picterest",
-      "stack": ["vue.svg", "php.svg", "mysql.png"],
+      "cover-type": "image",
       "covers": ["picterest-1.png"],
-      "description": "<b>Picterest</b> is a web-based Pinterest clone that allows you to discover, created, and save images.<br/><br/>This project was a part of CSS326 Database Programming Laboratory course. I developed along with my peer as a full-stack developer. I learned so many fundamental topics here including Frontend Development (VueJS, Tailwind CSS), Backend Development (PHP), Database Development (MySQL), REST API, and much more.<br/><br/>This is not implemented online, but you can explore its codebase on <a class='link' href='https://github.com/archawitch/Picterest' target='_blank'>GitHub</a>.<br/><br/>Created with <i>VueJS</i>, <i>PHP</i>, and <i>MySQL</i>."
+      "description": "<b>Picterest</b> is a web-based Pinterest clone that allows you to discover, created, and save images.<br/><br/>This project was a part of CSS326 Database Programming Laboratory course where I developed it with my peer as a full-stack developer. I learned so many fundamental topics here including Frontend Development (VueJS, Tailwind CSS), Backend Development (PHP), Database Development (MySQL), REST API, and much more.<br/><br/>This is not implemented online, but you can explore its codebase on <a class='link' href='https://github.com/archawitch/Picterest' target='_blank'>GitHub</a>.<br/><br/>Created with <i>VueJS</i>, <i>PHP</i>, and <i>MySQL</i>."
     },
     {
       "route": "catch-the-fruits",
       "name": "Catch the fruits",
-      "stack": ["java.svg"],
+      "cover-type": "image",
       "covers": ["catch-the-fruits-1.png", "catch-the-fruits-2.png"],
-      "description": "<b>Catch the fruits</b> is a mini Java game where players need to catch falling fruits. This game applies Java AWT and Object-Oriented Programming (OOP) concepts.<br/><br/>It was a part of ITS103 Object-Oriented Programming Laboratory course. During this course, I learned and implemented OOP concepts such as <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Abstraction' target='_blank'>abstraction</a>, <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Encapsulation' target='_blank'>encapsulation</a>, <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Inheritance' target='_blank'>inheritance</a> and <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Polymorphism' target='_blank'>polymorphism</a> in Java.<br/><br/>This is not implemented online, but you can explore its codebase on <a class='link' href='https://github.com/archawitch/catch-the-fruit' target='_blank'>GitHub</a> or take a quick look at my <a class='link' href='https://www.canva.com/design/DAE_7n1zqwg/0soJkN3n2O2_SOzC5eS79Q/view?utm_content=DAE_7n1zqwg&utm_campaign=designshare&utm_medium=link&utm_source=viewer' target='_blank'>presentation</a>.<br/><br/>Created with <i>Java</i>."
+      "description": "<b>Catch the fruits</b> is a mini Java game where players need to catch falling fruits. This game applies Java AWT and Object-Oriented Programming (OOP) concepts.<br/><br/>It was a part of ITS103 Object-Oriented Programming Laboratory course. During this course, I learned and implemented OOP concepts such as <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Abstraction' target='_blank'>abstraction</a>, <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Encapsulation' target='_blank'>encapsulation</a>, <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Inheritance' target='_blank'>inheritance</a> and <a class='link' href='https://developer.mozilla.org/en-US/docs/Glossary/Polymorphism' target='_blank'>polymorphism</a> in Java.<br/><br/>This is not implemented online, but you can explore its codebase on <a class='link' href='https://github.com/archawitch/catch-the-fruit' target='_blank'>GitHub</a> or take a quick look at this <a class='link' href='https://www.canva.com/design/DAE_7n1zqwg/0soJkN3n2O2_SOzC5eS79Q/view?utm_content=DAE_7n1zqwg&utm_campaign=designshare&utm_medium=link&utm_source=viewer' target='_blank'>presentation</a>.<br/><br/>Created with <i>Java</i>."
     }
   ]
 }

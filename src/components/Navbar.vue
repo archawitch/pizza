@@ -15,16 +15,10 @@ nav {
   display: flex;
   align-items: baseline;
   justify-content: end;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 nav a {
   margin-left: 1.5rem;
-}
-
-@media only screen and (min-width: 640px) {
-  nav {
-    margin-bottom: 2.75rem;
-  }
 }
 </style>

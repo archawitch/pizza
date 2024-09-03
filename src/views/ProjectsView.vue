@@ -9,9 +9,13 @@ import Contact from '../components/Contact.vue'
     <section name="projects-2024">
       <h2>2024</h2>
       <ul class="project-list">
+        <li class="project-item" name="iwin">
+          <router-link class="link" to="/project/iwin">iWin</router-link>&nbsp;- Go, Swift
+          <span class="project-date text-secondary">Aug 24</span>
+        </li>
         <li class="project-item" name="tasky">
           <router-link class="link" to="/project/tasky">Tasky</router-link>&nbsp;- ReactJS
-          <span class="project-date text-secondary">Jul 2024</span>
+          <span class="project-date text-secondary">Jul 24</span>
         </li>
       </ul>
     </section>
@@ -21,7 +25,7 @@ import Contact from '../components/Contact.vue'
         <li class="project-item" name="picterest">
           <router-link class="link" to="/project/picterest">Picterest</router-link>&nbsp;- VueJS,
           PHP, MySQL
-          <span class="project-date text-secondary">Nov 2023</span>
+          <span class="project-date text-secondary">Nov 23</span>
         </li>
       </ul>
     </section>
@@ -31,7 +35,7 @@ import Contact from '../components/Contact.vue'
         <li class="project-item" name="catch-the-fruit">
           <router-link class="link" to="/project/catch-the-fruits">Catch the fruits</router-link>
           &nbsp;- Java
-          <span class="project-date text-secondary">Apr 2022</span>
+          <span class="project-date text-secondary">Apr 22</span>
         </li>
       </ul>
     </section>
@@ -49,6 +53,7 @@ import Contact from '../components/Contact.vue'
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 0.5rem;
 }
 
 .project-date {
