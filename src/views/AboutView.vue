@@ -19,22 +19,6 @@ import Contact from '../components/Contact.vue'
       plenty of web development projects to build strong foundations and solve my daily problems.
       <br />
       <br />
-      I graduated from
-      <a class="link" href="https://gifted.kmutt.ac.th" target="_blank"
-        >Darunsikkhalai Science School</a
-      >, where I received a full scholarship from
-      <a
-        class="link"
-        href="https://th.wikipedia.org/wiki/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99_%E0%B9%82%E0%B8%94%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2"
-        target="_blank"
-        >SCiUS</a
-      >, and participated in the
-      <a class="link" href="https://www.facebook.com/sscomposn/" target="_blank"
-        >Computer Olympic POSN Camp 1 and 2</a
-      >
-      during my school years. Currently, I'm receiving a four-year continuing scholarship from SIIT.
-      <br />
-      <br />
       For more information about my personal projects, feel free to check them out at
       <router-link class="link" to="projects">Projects</router-link>.
     </p>
@@ -50,7 +34,7 @@ import Contact from '../components/Contact.vue'
 }
 
 #about h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
   width: 100%;
 }
 </style>

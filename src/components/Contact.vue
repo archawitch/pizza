@@ -29,8 +29,7 @@
 @media only screen and (max-width: 640px) {
   .contact {
     flex-direction: column;
-    row-gap: 1.5rem;
-    margin-bottom: 1.5rem;
+    row-gap: 1rem;
   }
 }
 </style>

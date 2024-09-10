@@ -68,14 +68,14 @@ b {
   h1 {
     font-size: 2.2rem;
   }
+
+  section {
+    margin-top: 2.5rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   #app {
     max-width: 50%;
-  }
-
-  h1 {
-    font-size: 2.2rem;
   }
 }

@@ -68,10 +68,6 @@ onMounted(() => {
   margin-bottom: 0.5rem;
 }
 
-.project-title:has(:nth-child(3)) {
-  justify-content: unset;
-}
-
 .project-name-paragraph {
   font-weight: 500;
 }
