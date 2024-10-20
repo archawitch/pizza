@@ -15,8 +15,9 @@ import Contact from '../components/Contact.vue'
       with a major in Cloud Computing and Cyber Security.
       <br />
       <br />
-      My interests lie in web development, web design, and cyber security. I'm actively developing a
-      plenty of web development projects to build strong foundations and solve my daily problems.
+      My interests lie in web development, mobile app development, UI design, and cyber security.
+      I'm actively developing a plenty of projects to build strong foundations and solve my daily
+      problems.
       <br />
       <br />
       For more information about my personal projects, feel free to check them out at
